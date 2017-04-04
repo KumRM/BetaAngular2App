@@ -1,0 +1,36 @@
+<div class="supage">
+  <div class="container">
+    <!--FIRST ROW-->
+    <div class="row">
+        <div class="col-md-5">
+        Username:
+        </div>
+        <div class="col-md-7">
+        <input type="text" value="KumR27" readonly/><br>
+        </div>
+    </div>
+    <!--SECOND ROW-->
+    <div class="row">
+          <div class="col-md-5">
+          E-Mail:
+          </div>
+          <div class="col-md-7">
+          <input type="text" value="manthenakumar_94@yahoo.com" readonly/><br>
+          </div>
+    </div> 
+    <!--THIRD ROW-->
+    <div class="row">
+          <div class="col-md-5">
+          Password: 
+          </div>
+          <div class="col-md-7">
+          <input type="password" value="" autofocus placeholder="Enter Your Password"/>
+          </div>
+    </div>
+    <!--BUTTON-->
+    <div align="center">
+      <a [routerLink]="['/thanks']"><input type="button" value="Sign In"></a>
+    </div> 
+  </div>
+</div>
+<router-outlet></router-outlet>
