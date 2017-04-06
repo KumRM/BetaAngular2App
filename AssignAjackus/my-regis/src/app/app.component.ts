@@ -10,5 +10,5 @@ import { ThanksComponent } from './thanks/thanks.component';
   entryComponents: [HomeComponent, SignupComponent ,ThanksComponent]
 })
 export class AppComponent {
-  title = 'My First Angular App!';
+  title = 'app works!';
 }

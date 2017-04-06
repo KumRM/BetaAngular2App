@@ -1,36 +1,44 @@
-<div class="supage">
-  <div class="container">
+<div style="margin-top: -40px;">
+  <h4 align="center">
+    Please confirm your contact information, so that we can
+  </h4>
+  <h4 align="center">
+    notify you when you are approved for our BETA.
+  </h4>
+</div>
+  <div class="container" style="max-width: 250px">
     <!--FIRST ROW-->
     <div class="row">
-        <div class="col-md-5">
-        Username:
+        <div style="padding: 10px;" align="left">
+        Name:
         </div>
-        <div class="col-md-7">
-        <input type="text" value="KumR27" readonly/><br>
+        <div>
+        <input style="padding: 10px;" type="text" value="KumR27" readonly/><br>
         </div>
     </div>
     <!--SECOND ROW-->
     <div class="row">
-          <div class="col-md-5">
-          E-Mail:
+          <div style="padding: 10px;" align="left">
+          E-Mail Address:
           </div>
-          <div class="col-md-7">
-          <input type="text" value="manthenakumar_94@yahoo.com" readonly/><br>
+          <div>
+          <input style="padding: 10px;" type="text" value="manthenakumar_94@yahoo.com" readonly/><br>
           </div>
     </div> 
     <!--THIRD ROW-->
     <div class="row">
-          <div class="col-md-5">
+          <div style="padding: 10px;" align="left">
           Password: 
           </div>
-          <div class="col-md-7">
-          <input type="password" value="" autofocus placeholder="Enter Your Password"/>
+          <div>
+          <input style="padding: 10px;" type="password" value="" autofocus placeholder="Enter Your Password"/>
           </div>
     </div>
     <!--BUTTON-->
-    <div align="center">
-      <a [routerLink]="['/thanks']"><input type="button" value="Sign In"></a>
-    </div> 
+    <div align="center" style="margin-top: 75px;">
+      <a [routerLink]="['/thanks']">
+      <input style="padding: 10px 45px 10px 45px ; color: red; border: 2px solid red; background-color: white; font-size: 12px;" type="button" value="SIGN IN">
+      </a>
+    </div>  
   </div>
-</div>
 <router-outlet></router-outlet>

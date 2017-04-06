@@ -1,8 +1,18 @@
-.supage{
-    max-width: 3500px;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    margin-right: 10%;
-    background-color: aliceblue;
+input[type=text]
+{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid lightslategray;
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+input[type=password]
+{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid lightslategray;
+    color: darkslategrey;
 }
